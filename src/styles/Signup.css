@@ -1,0 +1,80 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0e0e0e;
+    color: #00ffff;
+  }
+  
+  .auth-form {
+    background-color: #1c1c1c;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 300px;
+  }
+  
+  .auth-form input {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: white;
+  }
+  
+  .auth-form button {
+    background-color: #00ffff;
+    color: black;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .auth-form a {
+    color: #00ffff;
+    text-decoration: none;
+  }
+  
+
+
+  .role-toggle-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .role-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #222;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .role-button.active {
+    background-color: #0066ff;
+  }
+  
+
+
+
+  
+.signup-link {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #AAAAAA;
+}
+
+.signup-link a {
+  color: #09e7e7;
+  text-decoration: none;
+}
